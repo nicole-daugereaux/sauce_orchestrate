@@ -1,0 +1,16 @@
+apiVersion: v1alpha
+kind: imagerunner
+sauce:
+    region: us-west-1
+suites:
+  - name: Sauce Orchestrate Demo
+    image: nicoledaugereaux/photon-demo-docker:1.0.0
+#    update the above to match your info!
+    workload: webdriver
+    entrypoint: "python3 puppySearch.py"
+    files:
+      - src: "puppySearch.py"
+        dst: "/workdir/puppySearch.py"
+
+
+
