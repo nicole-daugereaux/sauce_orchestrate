@@ -42,4 +42,5 @@ docker push <docker-username>/sauce_orchestrate:latest
 7. While in the sauce_orchestrate directory in Finder, make sure your hidden files are visible by pressing ```cmd+shift+.```.   Then go into the ```.sauce``` directory and open the ```config.yml``` (this is what tells saucectl to run the image). Edit it to match your info; your Docker username should be all that's needed.
 
 8. Update or install ```saucectl```: https://docs.saucelabs.com/dev/cli/saucectl/#installing-saucectl 
-9. Type & run the command ```saucectl run ``` from the main SauceOrchestrateDemo directory that we’ve been working in & you should be good to go! 🎉
+9. Type & run the command ```saucectl run ``` from the main SauceOrchestrateDemo directory that we’ve been working in & you should be good to go! 
+10. Compare those runtimes and look at that time savings! 🎉
