@@ -16,7 +16,7 @@ python3 puppySearch.py
 
 # To run with Sauce Orchestrate, see docs (which will tell you how to create registries, build docker images, etc) at https://docs.saucelabs.com/orchestrate/
 
-#Or if you're on a Mac like me, follow the steps below!
+# Or if you're on a Mac like me, follow the steps below!
 
 1. Make sure you’re in the SauceOrchestrateDemo directory. If it’s on your Desktop, you could just do the following commands in your terminal:
 ```
