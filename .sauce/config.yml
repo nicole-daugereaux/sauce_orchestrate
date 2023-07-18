@@ -5,7 +5,7 @@ sauce:
 suites:
   - name: Sauce Orchestrate Demo
     image: nicoledaugereaux/sauce_orchestrate:latest
-#    update the above to match your info!
+#    update the above Docker username to match your info!
     workload: webdriver
     entrypoint: "python3 puppySearch.py"
     files:
