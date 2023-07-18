@@ -1,27 +1,22 @@
-# Simple Sauce Lab Examples
-Very simple tests for Sauce Labs that don't require huge frameworks.
+# Simple Sauce Sauce Orchestrate Example
 
-# Installing requirements
-You may not need all the packages in the requirements file, but you can install them to your python like so (update the path as needed):
 
-```
-pip install -r requirements.txt
-```
-Run command for local runs:
+# Running locally for benchmark times:
+While in the SauceOrchestrateDemo directory, run:
 
 ```
-python puppySearch.py
+pip3 install -r requirements.txt
 ```
 
-or version-specific:
+Run command:
 
 ```
 python3 puppySearch.py
 ```
 
-To run with Sauce Orchestrate, see docs (which will tell you how to create registries, build docker images, etc) at https://docs.saucelabs.com/orchestrate/
+# To run with Sauce Orchestrate, see docs (which will tell you how to create registries, build docker images, etc) at https://docs.saucelabs.com/orchestrate/
 
-Or if you're on a Mac like me, follow the steps below!
+#Or if you're on a Mac like me, follow the steps below!
 
 1. Make sure you’re in the SauceOrchestrateDemo directory. If it’s on your Desktop, you could just do the following commands in your terminal:
 ```
