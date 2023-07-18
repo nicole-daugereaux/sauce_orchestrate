@@ -4,7 +4,7 @@ sauce:
     region: us-west-1
 suites:
   - name: Sauce Orchestrate Demo
-    image: nicoledaugereaux/sauce_orchestrate:1.0.0
+    image: nicoledaugereaux/sauce_orchestrate:latest
 #    update the above to match your info!
     workload: webdriver
     entrypoint: "python3 puppySearch.py"
