@@ -1,6 +1,10 @@
 # Simple Sauce Sauce Orchestrate Example
 
-
+Before you start, make sure your credentials are set globally. You can do that by running this in the terminal on Mac:
+```
+export SAUCE_USERNAME={your username}
+export SAUCE_ACCESS_KEY={your access key}
+```
 # Running locally for benchmark times:
 While in the sauce_orchestrate directory, run:
 
