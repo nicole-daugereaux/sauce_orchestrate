@@ -26,7 +26,7 @@ Docs (which will tell you how to create registries, build docker images, etc) he
 2. In your terminal, type and run the following command while in the main sauce_orchestrate directory:
 
 ```
-Docker build . --platform linux/amd64
+docker build . --platform linux/amd64
 ```
 3. Login to hub.docker.com (or create an account if you haven’t done so already) , go to Repositories → Create Repository
  
