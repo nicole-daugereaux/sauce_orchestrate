@@ -1,6 +1,6 @@
 # Simple Sauce Sauce Orchestrate Example
 
-Before you start, make sure your credentials are set globally. You can do that by running this in the terminal on Mac:
+Before you start, make sure your credentials are set globally. You can do that by running this in the terminal on Mac or command prompt on Windows:
 ```
 export SAUCE_USERNAME={your username}
 export SAUCE_ACCESS_KEY={your access key}
