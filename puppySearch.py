@@ -29,7 +29,7 @@ region = 'US'
 ###################################################################
 # Test Configuration Options
 options = ChromeOptions()
-options.browser_version = 'latest'
+options.browser_version = '114'
 options.platform_name  = 'MacOS 12'
 sauceParameters = {
     # Sauce Specific Options
