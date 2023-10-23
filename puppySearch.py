@@ -31,6 +31,8 @@ region = 'US'
 options = ChromeOptions()
 options.browser_version = '114'
 options.platform_name  = 'MacOS 12'
+options.add_argument("--deny-permission-prompts")
+
 sauceParameters = {
     # Sauce Specific Options
         'tags':[''],
@@ -64,6 +66,7 @@ elif region == 'EU':
 # Navigating to a website and doing the same thing over and over to replicate a long test
 
 driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -71,23 +74,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
-
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -95,15 +93,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -111,15 +112,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -127,15 +131,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -143,15 +150,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -159,15 +169,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -175,15 +188,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -191,15 +207,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -207,15 +226,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -223,15 +245,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -239,15 +264,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -255,15 +283,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -271,15 +302,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -287,15 +321,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -303,15 +340,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -319,15 +359,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -335,15 +378,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -351,15 +397,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -367,15 +416,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -383,15 +435,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -399,15 +454,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -415,15 +473,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -431,15 +492,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -447,15 +511,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -463,15 +530,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -479,15 +549,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -495,15 +568,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -511,302 +587,322 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-#
-driver.get('https://www.google.com')
+
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -814,15 +910,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -830,15 +929,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -846,15 +948,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -862,15 +967,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -878,15 +986,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -894,15 +1005,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -910,15 +1024,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -926,15 +1043,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -942,15 +1062,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -958,15 +1081,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -974,15 +1100,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -990,15 +1119,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -1006,15 +1138,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -1022,15 +1157,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -1038,15 +1176,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -1054,15 +1195,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -1070,15 +1214,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -1086,15 +1233,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -1102,15 +1252,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -1118,15 +1271,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -1134,15 +1290,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -1150,15 +1309,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -1166,15 +1328,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -1182,15 +1347,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -1198,15 +1366,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -1214,15 +1385,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -1230,15 +1404,18 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
@@ -1246,309 +1423,400 @@ interact.send_keys('puppies')
 interact.submit()
 
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
 
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
 
-driver.get('https://www.google.com')
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
+
+
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
+
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
 interact = driver.find_element("id","APjFqb")
-#
-# # Using the selected element
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
+
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
+
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
+
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
+
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
+
+
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
+
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-driver.get('https://www.google.com')
+
 interact = driver.find_element("id","APjFqb")
 #
 # # Using the selected element
 interact.send_keys('puppies')
 interact.submit()
-#
+
+
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
+
+interact = driver.find_element("id","APjFqb")
+interact.clear()
+# # # Using the selected element
+interact.send_keys('puppies')
+interact.submit()
+
+# # # Using the selected element
+
 
 
 # Setting the job status to passed
