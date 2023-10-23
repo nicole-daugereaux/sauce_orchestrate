@@ -4,6 +4,7 @@ sauce:
     region: us-west-1
 suites:
   - name: Sauce Orchestrate Demo
+    resourceProfile: c6m6
     image: nicoledaugereaux/sauce_orchestrate:latest
 #    update the above Docker username to match your info!
     workload: webdriver
