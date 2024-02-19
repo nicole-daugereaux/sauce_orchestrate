@@ -26,7 +26,7 @@ Docs (which will tell you how to create registries, build docker images, etc) he
 2. In your terminal, type and run the following command while in the main sauce_orchestrate directory:
 
 ```
-docker build .  
+docker build . --platform linux/amd64
 ```
 
 3. Login to hub.docker.com (or create an account if you haven’t done so already) , go to Repositories → Create Repository
@@ -35,7 +35,7 @@ docker build .
 
 5. Now rebuild your image using your account and repository name
 ```
-docker build -t <your-docker-username>/sauce_orchestrate:latest .   
+docker build -t <your-docker-username>/sauce_orchestrate:latest . --platform linux/amd64
 ```
 
 6. Then run the following commands to login to Docker hub and push the image up to your repo:
