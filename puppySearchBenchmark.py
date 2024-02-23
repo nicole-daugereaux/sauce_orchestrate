@@ -25,7 +25,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 ###################################################################
 # This makes the functions below execute 'run' amount of times
 ###################################################################
-run = 5
+run = 25
 ###################################################################
 # Declare as a function in order to do multiple runs
 ###################################################################
@@ -47,8 +47,8 @@ def run_sauce_test():
     sauceParameters = {
         # Sauce Specific Options
             'tags':[''],
-            'build': 'Sauce Orchestrate w/ Docker',
-            'name': 'Sauce Orchestrate w/ Docker',
+            'build': 'Sauce Orchestrate Benchmark',
+            'name': 'Sauce Orchestrate Benchmark',
             'seleniumVersion': '4',
     }
     options.set_capability('sauce:options', sauceParameters)
